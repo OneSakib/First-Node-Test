@@ -4,12 +4,17 @@
   "description": "Testting purpose",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SAKIB",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
     "simple-node-logger": "^21.8.12"
   }
 }
